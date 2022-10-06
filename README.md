@@ -1,1 +1,1 @@
-﻿# Proyecto Mockup blog (bad bunny)
+﻿# Proyecto Mockup blog (bad bunny)Bitacora
