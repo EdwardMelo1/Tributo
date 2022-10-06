@@ -1,0 +1,202 @@
+body{
+    background-color:#F46060;
+    max-width: 2000px;
+  }
+
+header{
+    background-color:#FFEEAA;
+}
+.principio{
+    width: 100%;
+align-items: center;
+align-content: center;
+text-align: center;
+}
+.boton-bio{
+    background-color: black;
+    color: azure;
+    font-size: 200%;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50px;
+}
+.container{
+    margin: auto;
+    background-color: aliceblue;
+    width: 800px;
+    padding: 30px;
+}
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul.slider{
+    position: relative;
+    width: 800px;
+    height: 300px;
+}
+ul.slider li{
+position: absolute;
+left: 0;
+top: 0;
+opacity: 0;
+width: inherit;
+height: inherit;
+background-color: white;
+transition:.5s;
+}
+ul.slider li img{
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+ul.slider li img{
+width: 100%;
+height: 300px;
+object-fit: cover;
+}
+ul.slider li:first-child{opacity: 1;
+}
+ul.slider li:target{opacity: 1;
+}
+
+.menu{
+    text-align:center;
+    margin: 20px;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a{ display: inline-block;
+    color: black;
+    text-decoration: none;
+    background-color:#F46060;
+    padding: 5px;
+    width: 10px;
+    height: 10px;
+    font-size: 10px;
+    border-radius: 100%;
+    align-items: baseline;
+}
+
+.colabora{
+    text-align: center;
+}
+.card{
+    background-color:#FFEEAA;   
+    width: 320px;
+    height: 520px;
+    margin-right:200px;
+    margin-block-end: 100px;
+    text-align: center;
+    align-items: center;
+    object-fit: cover;
+    
+}
+.contenedor{
+    display: flex;
+}
+.albumss{
+    display:flex;
+    
+}
+
+.informaciona{
+    margin-left: 100px;
+    padding-right: 300px;
+    padding-top: 200px;
+}
+.porcien{
+    padding-left: 300px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.informados{
+    display: flex;
+    padding-left: 300px;
+    padding-right: 400px;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    top: 50%;
+    background-color: black;
+    text-align: inherit;
+    color: azure;
+    
+}
+.albumss2 img{
+    height: 500px;
+    width: 500px;
+    padding-left:100px; 
+}
+.acomodar{
+    padding-top: 150px;
+}
+.barra2{
+    background-color: #FFEEAA;
+    text-align: center;
+}
+.barra1{
+    background-color: #FFEEAA;
+    text-align: center;
+}
+footer{
+    background-color: #FFEEAA;
+}
+.iconos{
+    color: black;
+}
+.list button{
+    background-color: #FFEEAA;
+    border: none;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    cursor: pointer;
+}
+.list{
+    text-align: right;
+}
+.redes{
+    display: flex;
+    height: 100px;
+    align-items:center;
+    justify-content: center;
+}
+.redes ul li{
+    display: inline-block;
+    margin:0 5px ;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.redes ul li a{
+    display: block;
+    padding: 0 10px;
+    background-color:black;
+    color:white;
+    line-height: 50px;
+    font-size: 18px;
+    box-shadow:0px 3px 5px 0px  rgba(0,0,0,.2);
+    transition: .2s;
+}
+.redes.ul:hover a{
+    filter: blur(2px);
+}
+.redes ul li a:hover{
+    transform: translate(-3px)scale(1.05);
+    box-shadow: 0 5px 5px 0px rgb(0,0,0,.4);
+    filter: none;
+}
+.finaltext{
+    text-align: center;
+    padding-bottom: 10px;
+}
